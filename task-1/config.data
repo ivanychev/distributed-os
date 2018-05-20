@@ -1,0 +1,7 @@
+processes 1 15
+;bidirected 1
+link from all to all
+setprocesses 1 15 BULLY
+send from -1 to 1 BULLY_INIT
+launch timer 1
+;wait 60 
